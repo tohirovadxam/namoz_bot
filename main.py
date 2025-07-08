@@ -10,7 +10,7 @@ from datetime import datetime
 
 TOKEN = os.getenv("TOKEN")
 
-bot = Bot(token=TOKEN)
+bot = Bot(TOKEN)
 dp = Dispatcher()
 
 default_chat_id = None
